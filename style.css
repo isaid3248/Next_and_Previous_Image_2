@@ -1,0 +1,47 @@
+body {
+    text-align: center;
+    background-color:wheat ;
+}
+
+.control {
+    margin: 10px;
+    display: flex; /* flexbox everything is in the center */
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    outline: none;
+    border: none;
+    background: none;
+    color: darkblue;
+    font-size: 100px;
+    padding: 10px;
+    font-weight: bold;
+    transition: color 0.7s ease-out;
+}
+
+button:hover {
+    color: dodgerblue;
+}
+
+span {
+    font-size: 90px;
+    color: rgb(172, 172, 18);
+    padding: 0 10px;
+}
+
+img {
+    height: 65%;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    opacity: 0.8;
+    transition: all 0.3s ease-out;
+}
+
+img:hover {
+    opacity: 1;
+    transform: scale(1.01);
+}
